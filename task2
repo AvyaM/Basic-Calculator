@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    int a,b;
+    printf ("enter first integer: ");
+    scanf ("%d" , &a);
+   
+    printf ("enter second integer: ");
+    scanf ("%d" , &b); 
+    
+    int sum = a+b;
+    int diff = a-b;
+    int multiply = a*b;
+    int quotient = a%b;
+
+    printf ("the sum of the two numbers is %d \n", sum );
+    printf ("the diff of the two numbers is %d \n", diff );
+    printf ("the multiplication of the two numbers is %d \n", multiply );
+    printf ("the quotient of the two numbers is %d \n", quotient);
+   
+
+    return 0;
+}
